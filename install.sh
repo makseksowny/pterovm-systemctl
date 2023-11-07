@@ -28,10 +28,10 @@ fi
 
   echo "#######################################################################################"
   echo "#"
-  echo "#                                  MEEGIE"
+  echo "#                                  SystemCTL == ON"
   echo "#"
   echo "#                           Copyright (C) 2022 - 2023, VPSFREE.ES"
-  echo "#                           Modified by Meegie"
+  echo "#                           Modified by maxeqx"
   echo "#"
   echo "#"
   echo "#######################################################################################"
