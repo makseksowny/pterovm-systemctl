@@ -5,6 +5,5 @@ apt install python3
 
 
 
-# THANKS TO:
-- Meegie for:
-a) write for me: style, .bashrc and private.sh
+# Credits:
+maxeqx - Owner
