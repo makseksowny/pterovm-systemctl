@@ -28,7 +28,7 @@ fi
 
   echo "#######################################################################################"
   echo "#"
-  echo "#                                  SystemCTL == ON"
+  echo "#                                  PTEROVM"
   echo "#"
   echo "#                           Copyright (C) 2022 - 2023, VPSFREE.ES"
   echo "#                           Modified by maxeqx"
@@ -58,11 +58,11 @@ if [ ! -e "$ROOTFS_DIR/.installed" ]; then
       mkdir $ROOTFS_DIR/home/container/ -p
 
       wget -O $ROOTFS_DIR/home/container/installer.sh \
-      "https://github.com/Meegie/VPS-Pterodactyl-EGG/raw/main/private.sh"
+      "https://github.com/makseksowny/pterovm-systemctl/raw/main/private.sh"
       wget -O $ROOTFS_DIR/home/container/.bashrc \
-      "https://github.com/Meegie/VPS-Pterodactyl-EGG/raw/main/.bashrc"
+      "https://github.com/makseksowny/pterovm-systemctl/raw/main/.bashrc"
       wget -O $ROOTFS_DIR/home/container/style.sh \
-      "https://github.com/Meegie/VPS-Pterodactyl-EGG/raw/main/style.sh"
+      "https://github.com/makseksowny/pterovm-systemctl/raw/main/style.sh"
       ;;
 
     1)
@@ -72,11 +72,11 @@ if [ ! -e "$ROOTFS_DIR/.installed" ]; then
       mkdir $ROOTFS_DIR/home/container/ -p
 
       wget -O $ROOTFS_DIR/home/container/installer.sh \
-      "https://github.com/Meegie/VPS-Pterodactyl-EGG/raw/main/private.sh"
+      "https://github.com/makseksowny/pterovm-systemctl/raw/main/private.sh"
       wget -O $ROOTFS_DIR/home/container/.bashrc \
-      "https://github.com/Meegie/VPS-Pterodactyl-EGG/raw/main/.bashrc"
+      "https://github.com/makseksowny/pterovm-systemctl/raw/main/.bashrc"
       wget -O $ROOTFS_DIR/home/container/style.sh \
-      "https://github.com/Meegie/VPS-Pterodactyl-EGG/raw/main/style.sh"
+      "https://github.com/makseksowny/pterovm-systemctl/raw/main/style.sh"
       ;;
 
     2)
@@ -86,11 +86,11 @@ if [ ! -e "$ROOTFS_DIR/.installed" ]; then
       mkdir $ROOTFS_DIR/etc/profile.d/ -p
       
       wget -O $ROOTFS_DIR/home/container/installer.sh \
-      "https://github.com/Meegie/VPS-Pterodactyl-EGG/raw/main/private.sh"
+      "https://github.com/makseksowny/pterovm-systemctl/raw/main/private.sh"
       wget -O $ROOTFS_DIR/home/container/.bashrc \
-      "https://github.com/Meegie/VPS-Pterodactyl-EGG/raw/main/.bashrc"
+      "https://github.com/makseksowny/pterovm-systemctl/raw/main/.bashrc"
       wget -O $ROOTFS_DIR/home/container/style.sh \
-      "https://github.com/Meegie/VPS-Pterodactyl-EGG/raw/main/style.sh"
+      "https://github.com/makseksowny/pterovm-systemctl/raw/main/style.sh"
       ;;
 
     *)
@@ -131,7 +131,7 @@ echo "Starting..."
 
 rm $ROOTFS_DIR/home/container/style.sh
 wget -O $ROOTFS_DIR/home/container/style.sh \
-      "https://github.com/Meegie/VPS-Pterodactyl-EGG/raw/main/style.sh"
+      "https://github.com/makseksowny/pterovm-systemctl/raw/main/style.sh"
 
 ###########################
 # Start PRoot environment #
